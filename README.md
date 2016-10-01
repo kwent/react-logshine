@@ -51,7 +51,7 @@ Property | Type | Description | Default value
 `systemColor` | `PropTypes.string` | Set system color | `#1bc98e`
 `programColor` | `PropTypes.string` | Set program color | `#9f86ff`
 `messageColor` | `PropTypes.string` | Set message color | `#ffffff`
-`topToolbarBackgroundColor` | `PropTypes.string` | Set top toolbar background color | `#258ddf`
+`topToolbarBackgroundColor` | `PropTypes.string` | Set top toolbar background color | `#1bc98e`
 `rowFormat` | `PropTypes.function` | Custom row format | `null`
 
 
