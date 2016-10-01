@@ -1,5 +1,4 @@
 # react-logshine
----
 
 Shine light on your log files (Papertrail only).
 
