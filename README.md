@@ -44,7 +44,6 @@ Property | Type | Description | Default value
 `follow` | `PropTypes.bool` | Follow (`tail -f`) | `true`
 `delay` | `PropTypes.number` | Delay between refresh in seconds | `10`
 `showTopToolbar` | `PropTypes.bool` | Show top toolbar | `true`
-`showBottomToolbar` | `PropTypes.bool` | Show bottom toolbar | `true`
 `backgroundColor` | `PropTypes.string` | Set background color | `#252830`
 `dateTimeColor` | `PropTypes.string` | Set datetime color | `#e4d836`
 `systemColor` | `PropTypes.string` | Set system color | `#1bc98e`
