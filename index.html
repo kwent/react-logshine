@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="./src/favicon.ico">
+    <style>
+    .App {
+      text-align: center;
+    }
+    .App-intro {
+      font-size: large;
+    }
+    .App-header {
+      background-color: #258ddf;
+      height: 100px;
+      padding: 20px;
+      color: white;
+    }
+    </style>
+    <title>LogShine React Component</title>
+  </head>
+  <body>
+    <div class="App">
+      <div class="App-header">
+        <h2>react-logshine</h2>
+      </div>
+      <p class="App-intro">
+        To get started
+        <pre style="text-align: left; border: solid 1px;">
+          <code>
+            var React = require('react');
+            var ReactDOM = require('react-dom');
+            var Papertrail = require('react-logshine');
+            require('react-logshine/lib/LogShine.css');
+            ReactDOM.render(&ltLogShine token="your_token"/&gt, container);
+          </code>
+        </pre>
+      </p>
+    </div>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` in this folder.
+      To create a production bundle, use `npm run build`.
+    -->
+  </body>
+</html>

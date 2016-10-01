@@ -1,0 +1,52 @@
+{
+  "name": "react-logshine",
+  "version": "1.0.0",
+  "description": "Shine light on your log files",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "react-component",
+    "react-logshine",
+    "logshine",
+    "syslog"
+  ],
+  "homepage": "http://github.com/kwent/react-logshine",
+  "author": "contact@quent.in",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kwent/react-logshine.git"
+  },
+  "bugs": {
+    "url": "http://github.com/kwent/react-logshine/issues"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "compile": "rm -Rf lib && NODE_ENV=production babel -d lib src --presets react-app && cp src/*.css lib/"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "files": [
+    "lib"
+  ],
+  "main": "lib/LogShine.js",
+  "style": "lib/LogShine.css",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-react-app": "^0.2.0",
+    "react-scripts": "0.4.1"
+  },
+  "dependencies": {
+    "axios": "^0.14.0",
+    "moment": "^2.15.1",
+    "moment-timezone": "^0.5.5",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-interval": "^1.3.3"
+  }
+}
